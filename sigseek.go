@@ -57,36 +57,12 @@ func openandfind(path string, seed string) (int,error) {
 	return 0, err
 }
 
-func modify(res chan string) []string {
-    s := []string{}
-    t := len(res)
-    fmt.Println("dol")
-    fmt.Println((len(res)+len(res)))
-    fmt.Println("dol")
-    
-    for i:=0; i < t; i++ {
-        temp := <- res
-        s = append(s, temp)
-    }
-    fmt.Println(len(s))
-    return s
-}
-
-func toSlice(c chan string) []string {
-    //s := make([]string{}, 0)
-    s := []string{}
-    for i := range c {
-        s = append(s, i)
-    }
-    return s
-}
-
 func main() {
 	apk := ""
 	flag.StringVar(&(apk),"f","","specify apk to search")
 	flag.Parse()
 	if apk == "" {
-        panic("no apk bitch")
+        panic("no apk dude")
     }
 
 	
