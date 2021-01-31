@@ -1,0 +1,17 @@
+HostNameVerifierWithCertificatePinning
+X509
+OpenSSLSocketImpl
+OpenSSLEngineSocketImpl
+sslCertificateChecker
+cronet
+TrustHostnameVerifier
+appcelerator
+trustmanager
+trustkit
+okhttp
+certificatepinner
+certificateTransparencyHostnameVerifier
+readKeyStore
+conscrypt
+OkHostnameVerifier
+WLCertificatePinningPlugin
