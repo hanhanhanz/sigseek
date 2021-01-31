@@ -1,7 +1,7 @@
 # Sigseek
 
 
-simple script for finding strings to fingerprinting anti-root or ssl-pinning method for recon. because i am too lazy for searching every keyword in [JADX](https://github.com/skylot/jadx)
+simple script for finding strings to fingerprinting anti-root or ssl-pinning method for recon. because i am too lazy for searching every keyword in [JADX](https://github.com/skylot/jadx). current format output is : string found | file location | line number
 
 
 ### Requirement
@@ -29,3 +29,7 @@ com.koushikdutta.superuser | ss-UnCrackable-Level1.apk/smali/sg/vantagepoint/a/c
 
 ```
 
+### To-Do list
+-make cleaner stdout
+-add output feature
+-add wordlist content
