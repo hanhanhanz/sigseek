@@ -30,6 +30,6 @@ com.koushikdutta.superuser | ss-UnCrackable-Level1.apk/smali/sg/vantagepoint/a/c
 ```
 
 ### To-Do list
--make cleaner stdout
--add output feature
--add wordlist content
+- make cleaner stdout
+- add output feature
+- add wordlist content
